@@ -1,0 +1,222 @@
+・Exchange : https://api.fixer.io/latest?base=USD&symbols=JPY&callback=callback
+
+http://docs.aws.amazon.com/ja_jp/awsaccountbilling/latest/aboutv2/price-changes.html
+
+{
+  "formatVersion" : "v1.0",
+  "disclaimer" : "This pricing list is for informational purposes only. All prices are subject to the additional terms included in the pricing pages on http://aws.amazon.com. All Free Tier prices are also subject to the terms included at https://aws.amazon.com/free/",
+  "publicationDate" : "2016-01-26T00:17:08Z",
+  "offers" : {
+    "AmazonS3" : {
+      "offerCode" : "AmazonS3",
+      "versionIndexUrl" : "/offers/v1.0/aws/AmazonS3/index.json",
+      "currentVersionUrl" : "/offers/v1.0/aws/AmazonS3/current/index.json"
+    },
+    "AmazonGlacier" : {
+      "offerCode" : "AmazonGlacier",
+      "versionIndexUrl" : "/offers/v1.0/aws/AmazonGlacier/index.json",
+      "currentVersionUrl" : "/offers/v1.0/aws/AmazonGlacier/current/index.json"
+    },
+    "AmazonSES" : {
+      "offerCode" : "AmazonSES",
+      "currentVersionUrl" : "/offers/v1.0/aws/AmazonSES/current/index.json"
+    },
+    "AmazonRDS" : {
+      "offerCode" : "AmazonRDS",
+      "versionIndexUrl" : "/offers/v1.0/aws/AmazonRDS/index.json",
+      "currentVersionUrl" : "/offers/v1.0/aws/AmazonRDS/current/index.json"
+    },
+    "AmazonSimpleDB" : {
+      "offerCode" : "AmazonSimpleDB",
+      "currentVersionUrl" : "/offers/v1.0/aws/AmazonSimpleDB/current/index.json"
+    },
+    "AmazonDynamoDB" : {
+      "offerCode" : "AmazonDynamoDB",
+      "versionIndexUrl" : "/offers/v1.0/aws/AmazonDynamoDB/index.json",
+      "currentVersionUrl" : "/offers/v1.0/aws/AmazonDynamoDB/current/index.json"
+    },
+    "AmazonEC2" : {
+      "offerCode" : "AmazonEC2",
+      "versionIndexUrl" : "/offers/v1.0/aws/AmazonEC2/index.json",
+      "currentVersionUrl" : "/offers/v1.0/aws/AmazonEC2/current/index.json"
+    },
+    "AmazonRoute53" : {
+      "offerCode" : "AmazonRoute53",
+      "currentVersionUrl" : "/offers/v1.0/aws/AmazonRoute53/current/index.json"
+    },
+    "AmazonRedshift" : {
+      "offerCode" : "AmazonRedshift",
+      "versionIndexUrl" : "/offers/v1.0/aws/AmazonRedshift/index.json",
+      "currentVersionUrl" : "/offers/v1.0/aws/AmazonRedshift/current/index.json"
+    },
+    "AmazonElastiCache" : {
+      "offerCode" : "AmazonElastiCache",
+      "versionIndexUrl" : "/offers/v1.0/aws/AmazonElastiCache/index.json",
+      "currentVersionUrl" : "/offers/v1.0/aws/AmazonElastiCache/current/index.json"
+    },
+    "AmazonCloudFront" : {
+      "offerCode" : "AmazonCloudFront",
+      "currentVersionUrl" : "/offers/v1.0/aws/AmazonCloudFront/current/index.json"
+    },
+    "awskms" : {
+      "offerCode" : "awskms",
+      "versionIndexUrl" : "/offers/v1.0/aws/awskms/index.json",
+      "currentVersionUrl" : "/offers/v1.0/aws/awskms/current/index.json"
+    },
+    "AmazonVPC" : {
+      "offerCode" : "AmazonVPC",
+      "versionIndexUrl" : "/offers/v1.0/aws/AmazonVPC/index.json",
+      "currentVersionUrl" : "/offers/v1.0/aws/AmazonVPC/current/index.json"
+    }
+  }
+}
+
+https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonRDS/current/index.json
+https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEC2/current/index.json
+
+
+・EC2
+　・Linux : http://a0.awsstatic.com/pricing/1/ec2/ri-v2/linux-unix-shared.min.js
+　・RHEL : http://a0.awsstatic.com/pricing/1/ec2/ri-v2/red-hat-enterprise-linux-shared.min.js
+　・SUSE : http://a0.awsstatic.com/pricing/1/ec2/ri-v2/suse-linux-shared.min.js
+　・Windows : http://a0.awsstatic.com/pricing/1/ec2/ri-v2/windows-shared.min.js
+　・Windows with SQL Server : http://a0.awsstatic.com/pricing/1/ec2/ri-v2/windows-with-sql-server-standard-shared.min.js
+　・Windows with SQL Server Web Shared : http://a0.awsstatic.com/pricing/1/ec2/ri-v2/windows-with-sql-server-web-shared.min.js
+　・Spot Instance（直近5分） : http://spot-price.s3.amazonaws.com/spot.js
+　・データ通信 : http://a0.awsstatic.com/pricing/1/ec2/pricing-data-transfer-with-regions.min.js
+　・EBS Optimized : http://a0.awsstatic.com/pricing/1/ec2/pricing-ebs-optimized-instances.min.js
+　・EBS : http://a0.awsstatic.com/pricing/1/ebs/pricing-ebs.min.js
+　・EIP : http://a0.awsstatic.com/pricing/1/ec2/pricing-elastic-ips.min.js
+　・CloudWatch : http://a0.awsstatic.com/pricing/1/cloudwatch/pricing-cloudwatch.min.js
+　・ELB : http://a0.awsstatic.com/pricing/1/ec2/pricing-elb.min.js
+
+・RDS
+　・MySQL : http://a0.awsstatic.com/pricing/1/rds/mysql/pricing-standard-deployments.min.js
+　・MySQL MultiAZ : http://a0.awsstatic.com/pricing/1/rds/mysql/pricing-multiAZ-deployments.min.js
+　・Oracle SE : http://a0.awsstatic.com/pricing/1/rds/oracle/pricing-li-standard-deployments.min.js
+　・Oracle MultiAZ : http://a0.awsstatic.com/pricing/1/rds/oracle/pricing-li-multiAZ-deployments.min.js
+　・SQL Server SE : http://a0.awsstatic.com/pricing/1/rds/sqlserver/sqlserver-li-se-ondemand.min.js
+　・SQL Server SE MultiAZ : http://a0.awsstatic.com/pricing/1/rds/sqlserver/sqlserver-li-se-ondemand-maz.min.js
+　・PostgreSQL : http://a0.awsstatic.com/pricing/1/rds/postgresql/pricing-standard-deployments.min.js
+　・PostgreSQL MultiAZ : http://a0.awsstatic.com/pricing/1/rds/postgresql/pricing-multiAZ-deployments.min.js
+　・データ通信 : http://a0.awsstatic.com/pricing/1/rds/postgresql/pricing-data-transfer.min.js
+
+・S3
+　・データ保存 : http://a0.awsstatic.com/pricing/1/s3/pricing-storage-s3.min.js
+　・リクエスト : http://a0.awsstatic.com/pricing/1/s3/pricing-requests-s3.min.js
+　・データ転送 : http://a0.awsstatic.com/pricing/1/s3/pricing-data-transfer-s3.min.js
+
+・Redshift
+　・Redshift Ondemand : http://a0.awsstatic.com/pricing/1/redshift/pricing-on-demand-redshift-instances.min.js
+
+・ElastiCache
+　・ElastiCache Ondemand : http://a0.awsstatic.com/pricing/1/elasticache/pricing-standard-deployments-elasticache.min.js
+
+http://a0.awsstatic.com/pricing/1/ec2/linux-od.min.js
+http://a0.awsstatic.com/pricing/1/ec2/rhel-od.min.js
+http://a0.awsstatic.com/pricing/1/ec2/sles-od.min.js
+http://a0.awsstatic.com/pricing/1/ec2/mswin-od.min.js
+http://a0.awsstatic.com/pricing/1/ec2/mswinSQL-od.min.js
+http://a0.awsstatic.com/pricing/1/ec2/mswinSQLWeb-od.min.js
+http://a0.awsstatic.com/pricing/1/ec2/previous-generation/linux-od.min.js
+http://a0.awsstatic.com/pricing/1/ec2/previous-generation/rhel-od.min.js
+http://a0.awsstatic.com/pricing/1/ec2/previous-generation/sles-od.min.js
+http://a0.awsstatic.com/pricing/1/ec2/previous-generation/mswin-od.min.js
+http://a0.awsstatic.com/pricing/1/ec2/previous-generation/mswinSQL-od.min.js
+http://a0.awsstatic.com/pricing/1/ec2/previous-generation/mswinSQLWeb-od.min.js
+http://a0.awsstatic.com/pricing/1/ec2/ri-v2/linux-unix-shared.min.js
+http://a0.awsstatic.com/pricing/1/ec2/ri-v2/red-hat-enterprise-linux-shared.min.js
+http://a0.awsstatic.com/pricing/1/ec2/ri-v2/suse-linux-shared.min.js
+http://a0.awsstatic.com/pricing/1/ec2/ri-v2/windows-shared.min.js
+http://a0.awsstatic.com/pricing/1/ec2/ri-v2/windows-with-sql-server-standard-shared.min.js
+http://a0.awsstatic.com/pricing/1/ec2/ri-v2/windows-with-sql-server-web-shared.min.js
+http://a0.awsstatic.com/pricing/1/ec2/previous-generation/ri-v2/linux-unix-shared.min.js
+http://a0.awsstatic.com/pricing/1/ec2/previous-generation/ri-v2/red-hat-enterprise-linux-shared.min.js
+http://a0.awsstatic.com/pricing/1/ec2/previous-generation/ri-v2/suse-linux-shared.min.js
+http://a0.awsstatic.com/pricing/1/ec2/previous-generation/ri-v2/windows-shared.min.js
+http://a0.awsstatic.com/pricing/1/ec2/previous-generation/ri-v2/windows-with-sql-server-standard-shared.min.js
+http://a0.awsstatic.com/pricing/1/ec2/previous-generation/ri-v2/windows-with-sql-server-web-shared.min.js
+
+http://a0.awsstatic.com/pricing/1/elasticache/pricing-standard-deployments-elasticache.min.js
+http://a0.awsstatic.com/pricing/1/elasticache/previous-generation/pricing-standard-deployments-elasticache.min.js
+http://a0.awsstatic.com/pricing/1/elasticache/pricing-elasticache-light-standard-deployments-elasticache.min.js
+http://a0.awsstatic.com/pricing/1/elasticache/pricing-elasticache-medium-standard-deployments.min.js
+http://a0.awsstatic.com/pricing/1/elasticache/pricing-elasticache-heavy-standard-deployments.min.js
+http://a0.awsstatic.com/pricing/1/elasticache/previous-generation/pricing-elasticache-light-standard-deployments.min.js
+http://a0.awsstatic.com/pricing/1/elasticache/previous-generation/pricing-elasticache-medium-standard-deployments.min.js
+http://a0.awsstatic.com/pricing/1/elasticache/previous-generation/pricing-elasticache-heavy-standard-deployments.min.js
+
+http://a0.awsstatic.com/pricing/1/rds/mysql/pricing-standard-deployments.min.js
+http://a0.awsstatic.com/pricing/1/rds/mysql/pricing-multiAZ-deployments.min.js
+http://a0.awsstatic.com/pricing/1/rds/oracle/pricing-li-standard-deployments.min.js
+http://a0.awsstatic.com/pricing/1/rds/oracle/pricing-li-multiAZ-deployments.min.js
+http://a0.awsstatic.com/pricing/1/rds/oracle/pricing-byol-standard-deployments.min.js
+http://a0.awsstatic.com/pricing/1/rds/oracle/pricing-byol-multiAZ-deployments.min.js
+http://a0.awsstatic.com/pricing/1/rds/sqlserver/sqlserver-li-ex-ondemand.min.js
+http://a0.awsstatic.com/pricing/1/rds/sqlserver/sqlserver-li-web-ondemand.min.js
+http://a0.awsstatic.com/pricing/1/rds/sqlserver/sqlserver-li-se-ondemand.min.js
+http://a0.awsstatic.com/pricing/1/rds/sqlserver/sqlserver-li-se-ondemand-maz.min.js
+http://a0.awsstatic.com/pricing/1/rds/sqlserver/sqlserver-byol-ondemand.min.js
+http://a0.awsstatic.com/pricing/1/rds/sqlserver/sqlserver-byol-ondemand-maz.min.js
+http://a0.awsstatic.com/pricing/1/rds/postgresql/pricing-standard-deployments.min.js
+http://a0.awsstatic.com/pricing/1/rds/postgresql/pricing-multiAZ-deployments.min.js
+
+http://a0.awsstatic.com/pricing/1/rds/mysql/previous-generation/pricing-standard-deployments.min.js
+http://a0.awsstatic.com/pricing/1/rds/mysql/previous-generation/pricing-multiAZ-deployments.min.js
+http://a0.awsstatic.com/pricing/1/rds/oracle/previous-generation/pricing-li-standard-deployments.min.js
+http://a0.awsstatic.com/pricing/1/rds/oracle/previous-generation/pricing-li-multiAZ-deployments.min.js
+http://a0.awsstatic.com/pricing/1/rds/oracle/previous-generation/pricing-byol-standard-deployments.min.js
+http://a0.awsstatic.com/pricing/1/rds/oracle/previous-generation/pricing-byol-multiAZ-deployments.min.js
+http://a0.awsstatic.com/pricing/1/rds/sqlserver/previous-generation/sqlserver-li-ex-ondemand.min.js
+http://a0.awsstatic.com/pricing/1/rds/sqlserver/previous-generation/sqlserver-li-web-ondemand.min.js
+http://a0.awsstatic.com/pricing/1/rds/sqlserver/previous-generation/sqlserver-li-se-ondemand.min.js
+http://a0.awsstatic.com/pricing/1/rds/sqlserver/previous-generation/sqlserver-li-se-ondemand-maz.min.js
+http://a0.awsstatic.com/pricing/1/rds/sqlserver/previous-generation/sqlserver-byol-ondemand.min.js
+http://a0.awsstatic.com/pricing/1/rds/sqlserver/previous-generation/sqlserver-byol-ondemand-maz.min.js
+http://a0.awsstatic.com/pricing/1/rds/postgresql/previous-generation/pricing-standard-deployments.min.js
+http://a0.awsstatic.com/pricing/1/rds/postgresql/previous-generation/pricing-multiAZ-deployments.min.js
+
+http://a0.awsstatic.com/pricing/1/rds/reserved-instances/mysql-standard.min.js
+http://a0.awsstatic.com/pricing/1/rds/reserved-instances/mysql-multiAZ.min.js
+http://a0.awsstatic.com/pricing/1/rds/reserved-instances/oracle-se1-license-included-standard.min.js
+http://a0.awsstatic.com/pricing/1/rds/reserved-instances/oracle-se1-license-included-multiAZ.min.js
+http://a0.awsstatic.com/pricing/1/rds/reserved-instances/oracle-se-byol-standard.min.js
+http://a0.awsstatic.com/pricing/1/rds/reserved-instances/oracle-se-byol-multiAZ.min.js
+http://a0.awsstatic.com/pricing/1/rds/sqlserver/sqlserver-li-ex-light-ri.min.js
+http://a0.awsstatic.com/pricing/1/rds/sqlserver/sqlserver-li-ex-medium-ri.min.js
+http://a0.awsstatic.com/pricing/1/rds/sqlserver/sqlserver-li-ex-heavy-ri.min.js
+http://a0.awsstatic.com/pricing/1/rds/sqlserver/sqlserver-li-web-light-ri.min.js
+http://a0.awsstatic.com/pricing/1/rds/sqlserver/sqlserver-li-web-medium-ri.min.js
+http://a0.awsstatic.com/pricing/1/rds/sqlserver/sqlserver-li-web-heavy-ri.min.js
+http://a0.awsstatic.com/pricing/1/rds/sqlserver/sqlserver-li-se-light-ri.min.js
+http://a0.awsstatic.com/pricing/1/rds/sqlserver/sqlserver-li-se-medium-ri.min.js
+http://a0.awsstatic.com/pricing/1/rds/sqlserver/sqlserver-li-se-heavy-ri.min.js
+http://a0.awsstatic.com/pricing/1/rds/reserved-instances/sql-server-se-byol-standard.min.js
+http://a0.awsstatic.com/pricing/1/rds/reserved-instances/sql-server-se-byol-multiAZ.min.js
+http://a0.awsstatic.com/pricing/1/rds/reserved-instances/postgresql-standard.min.js
+http://a0.awsstatic.com/pricing/1/rds/reserved-instances/postgresql-multiAZ.min.js
+
+http://a0.awsstatic.com/pricing/1/rds/previous-generation/reserved-instances/mysql-standard.min.js
+http://a0.awsstatic.com/pricing/1/rds/previous-generation/reserved-instances/mysql-multiAZ.min.js
+http://a0.awsstatic.com/pricing/1/rds/previous-generation/reserved-instances/oracle-se1-license-included-standard.min.js
+http://a0.awsstatic.com/pricing/1/rds/previous-generation/reserved-instances/oracle-se1-license-included-multiAZ.min.js
+http://a0.awsstatic.com/pricing/1/rds/previous-generation/reserved-instances/oracle-se-byol-standard.min.js
+http://a0.awsstatic.com/pricing/1/rds/previous-generation/reserved-instances/oracle-se-byol-multiAZ.min.js
+http://a0.awsstatic.com/pricing/1/rds/sqlserver/previous-generation/sqlserver-li-ex-light-ri.min.js
+http://a0.awsstatic.com/pricing/1/rds/sqlserver/previous-generation/sqlserver-li-ex-medium-ri.min.js
+http://a0.awsstatic.com/pricing/1/rds/sqlserver/previous-generation/sqlserver-li-ex-heavy-ri.min.js
+http://a0.awsstatic.com/pricing/1/rds/sqlserver/previous-generation/sqlserver-li-web-light-ri.min.js
+http://a0.awsstatic.com/pricing/1/rds/sqlserver/previous-generation/sqlserver-li-web-medium-ri.min.js
+http://a0.awsstatic.com/pricing/1/rds/sqlserver/previous-generation/sqlserver-li-web-heavy-ri.min.js
+http://a0.awsstatic.com/pricing/1/rds/sqlserver/previous-generation/sqlserver-li-se-light-ri.min.js
+http://a0.awsstatic.com/pricing/1/rds/sqlserver/previous-generation/sqlserver-li-se-medium-ri.min.js
+http://a0.awsstatic.com/pricing/1/rds/sqlserver/previous-generation/sqlserver-li-se-heavy-ri.min.js
+http://a0.awsstatic.com/pricing/1/rds/previous-generation/reserved-instances/sql-server-se-byol-standard.min.js
+http://a0.awsstatic.com/pricing/1/rds/previous-generation/reserved-instances/sql-server-se-byol-multiAZ.min.js
+http://a0.awsstatic.com/pricing/1/rds/previous-generation/reserved-instances/postgresql-standard.min.js
+http://a0.awsstatic.com/pricing/1/rds/previous-generation/reserved-instances/postgresql-multiAZ.min.js
+
+http://a0.awsstatic.com/pricing/1/redshift/pricing-on-demand-redshift-instances.min.js
+http://a0.awsstatic.com/pricing/1/redshift/previous-generation/pricing-on-demand-redshift-instances.min.js
+http://a0.awsstatic.com/pricing/1/redshift/pricing-reserved-redshift-instances.min.js
+http://a0.awsstatic.com/pricing/1/redshift/previous-generation/pricing-reserved-redshift-instances.min.js
