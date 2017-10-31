@@ -1,12 +1,12 @@
 SELECT 
-     `Instance Type`
+     SUBSTRING_INDEX(`Instance Type`, '.', 1) AS `Instance Index`
+    ,`Instance Type`
     ,`Instance Family`
-    ,SUBSTRING_INDEX(`Instance Type`, '.', 1) AS `Instance Index`
     ,`Current Generation`
     ,`vCPU`
     ,`Physical Processor`
     ,`Processor Architecture`
-    ,`Processor Features`
+    -- ,`Processor Features`
     ,`Clock Speed`
     ,`Memory`
     ,`Storage`
